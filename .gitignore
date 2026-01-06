@@ -11,4 +11,5 @@ wheels/
 
 
 # Dataset (do not track large data files)
-corruptmnist_v1/
+data/processed/
+data/raw/
