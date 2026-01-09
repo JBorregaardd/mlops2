@@ -1,0 +1,5 @@
+hyperparameters:
+  lr: 0.001
+  batch_size: 64
+  num_epochs: 1
+  model_name: test123.pth

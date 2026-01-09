@@ -1,0 +1,15 @@
+2026-01-08 11:39:35,040 INFO    MainThread:18944 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2026-01-08 11:39:35,040 INFO    MainThread:18944 [wandb_setup.py:_flush():80] Configure stats pid to 18944
+2026-01-08 11:39:35,040 INFO    MainThread:18944 [wandb_setup.py:_flush():80] Loading settings from C:\Users\Jacob pc\.config\wandb\settings
+2026-01-08 11:39:35,040 INFO    MainThread:18944 [wandb_setup.py:_flush():80] Loading settings from C:\Users\Jacob pc\vscode_projects\mlops2\wandb\settings
+2026-01-08 11:39:35,040 INFO    MainThread:18944 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2026-01-08 11:39:35,040 INFO    MainThread:18944 [wandb_init.py:setup_run_log_directory():714] Logging user logs to C:\Users\Jacob pc\vscode_projects\mlops2\wandb\run-20260108_113935-nez6jyqh\logs\debug.log
+2026-01-08 11:39:35,041 INFO    MainThread:18944 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to C:\Users\Jacob pc\vscode_projects\mlops2\wandb\run-20260108_113935-nez6jyqh\logs\debug-internal.log
+2026-01-08 11:39:35,041 INFO    MainThread:18944 [wandb_init.py:init():841] calling init triggers
+2026-01-08 11:39:35,041 INFO    MainThread:18944 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'lr': 0.001, 'batch_size': 32, 'epochs': 5, '_wandb': {}}
+2026-01-08 11:39:35,041 INFO    MainThread:18944 [wandb_init.py:init():889] starting backend
+2026-01-08 11:39:37,317 INFO    MainThread:18944 [wandb_init.py:init():892] sending inform_init request
+2026-01-08 11:39:37,348 INFO    MainThread:18944 [wandb_init.py:init():900] backend started and connected
+2026-01-08 11:39:37,370 INFO    MainThread:18944 [wandb_init.py:init():970] updated telemetry
+2026-01-08 11:39:37,405 INFO    MainThread:18944 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout

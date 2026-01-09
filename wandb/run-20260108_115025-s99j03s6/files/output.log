@@ -1,0 +1,28 @@
+Epoch 0, iter 0, loss: 2.2972683906555176
+Epoch 0, iter 100, loss: 0.27233192324638367
+Epoch 0, iter 200, loss: 0.13324761390686035
+Epoch 0, iter 300, loss: 0.20391510426998138
+Epoch 0, iter 400, loss: 0.13391917943954468
+Epoch 1, iter 0, loss: 0.08531121164560318
+Epoch 1, iter 100, loss: 0.17315593361854553
+Epoch 1, iter 200, loss: 0.10643082112073898
+Epoch 1, iter 300, loss: 0.03203403204679489
+Epoch 1, iter 400, loss: 0.05551272630691528
+Epoch 2, iter 0, loss: 0.0642816573381424
+Epoch 2, iter 100, loss: 0.17437049746513367
+Epoch 2, iter 200, loss: 0.00860255490988493
+Epoch 2, iter 300, loss: 0.02154242806136608
+Epoch 2, iter 400, loss: 0.09541158378124237
+Epoch 3, iter 0, loss: 0.07242342084646225
+Epoch 3, iter 100, loss: 0.028326286002993584
+Epoch 3, iter 200, loss: 0.011889204382896423
+Epoch 3, iter 300, loss: 0.026916226372122765
+Epoch 3, iter 400, loss: 0.15256547927856445
+Epoch 4, iter 0, loss: 0.0510360412299633
+Epoch 4, iter 100, loss: 0.010946662165224552
+Epoch 4, iter 200, loss: 0.02849481999874115
+Epoch 4, iter 300, loss: 0.09000982344150543
+Epoch 4, iter 400, loss: 0.012337634339928627
+Training complete
+Saved model to: C:\Users\Jacob pc\vscode_projects\mlops2\models\model1.pth
+Saved plot to: C:\Users\Jacob pc\vscode_projects\mlops2\reports\figures\training_statistics.png

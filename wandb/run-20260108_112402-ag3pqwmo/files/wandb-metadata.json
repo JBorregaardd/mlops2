@@ -1,0 +1,38 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.11",
+  "startedAt":  "2026-01-08T10:24:02.186887Z",
+  "program":  "-m mlopscookie.train",
+  "git":  {
+    "remote":  "https://github.com/JBorregaardd/mlops2.git",
+    "commit":  "10a54f48a679d89729ca386e64685e9eb559342b"
+  },
+  "email":  "s181487@dtu.dk",
+  "root":  "C:\\Users\\Jacob pc\\vscode_projects\\mlops2",
+  "host":  "DESKTOP-QKDN8RQ",
+  "executable":  "C:\\Users\\Jacob pc\\vscode_projects\\mlops2\\.venv\\Scripts\\python.exe",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "gpu":  "NVIDIA GeForce RTX 2070 SUPER",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "1022746423296",
+      "used":  "540362878976"
+    }
+  },
+  "memory":  {
+    "total":  "17094889472"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 2070 SUPER",
+      "memoryTotal":  "8589934592",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-6cd2715a-d2f3-d6e4-a077-9299fa711768"
+    }
+  ],
+  "cudaVersion":  "12.8",
+  "writerId":  "3up8dmv4crncid3u1if1bczfbymzv05q"
+}

@@ -1,0 +1,65 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            y1j7tt7o4xbrb5xkxbitocn8ydblyaya:
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "1022746423296"
+                        used: "540491124736"
+                email: s181487@dtu.dk
+                executable: C:\Users\Jacob pc\vscode_projects\mlops2\.venv\Scripts\python.exe
+                git:
+                    commit: 10a54f48a679d89729ca386e64685e9eb559342b
+                    remote: https://github.com/JBorregaardd/mlops2.git
+                gpu: NVIDIA GeForce RTX 2070 SUPER
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "8589934592"
+                      name: NVIDIA GeForce RTX 2070 SUPER
+                      uuid: GPU-6cd2715a-d2f3-d6e4-a077-9299fa711768
+                host: DESKTOP-QKDN8RQ
+                memory:
+                    total: "17094889472"
+                os: Windows-11-10.0.26200-SP0
+                program: -m mlopscookie.train
+                python: CPython 3.13.11
+                root: C:\Users\Jacob pc\vscode_projects\mlops2
+                startedAt: "2026-01-08T10:48:36.237106Z"
+                writerId: y1j7tt7o4xbrb5xkxbitocn8ydblyaya
+        m: []
+        python_version: 3.13.11
+        t:
+            "1":
+                - 1
+                - 5
+                - 50
+                - 53
+            "2":
+                - 1
+                - 5
+                - 50
+                - 53
+            "3":
+                - 2
+                - 16
+                - 61
+            "4": 3.13.11
+            "5": 0.23.1
+            "8":
+                - 3
+            "12": 0.23.1
+            "13": windows-amd64
+batch_size:
+    value: 64
+epochs:
+    value: 5
+lr:
+    value: 0.001
+model_name:
+    value: model1.pth
