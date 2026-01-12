@@ -13,3 +13,8 @@ wheels/
 # Dataset (do not track large data files)
 data/processed/
 data/raw/
+
+reports/
+logs/
+models/
+
