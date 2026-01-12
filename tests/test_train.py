@@ -1,6 +1,15 @@
 import os
 import hydra.utils
 from omegaconf import OmegaConf
+from pathlib import Path
+import pytest
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DATA_FILE = PROJECT_ROOT / "data" / "processed" / "train_images.pt"
+
+pytestmark = pytest.mark.skipif(not DATA_FILE.exists(), reason="Training data not available")
+
+
 
 def test_train(capsys, monkeypatch):
     
