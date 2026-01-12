@@ -1,0 +1,67 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            cf056968ep5dytx10j3en5tc7h56bcwt:
+                args:
+                    - tests
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "1022746423296"
+                        used: "539254366208"
+                email: s181487@dtu.dk
+                executable: C:\Users\Jacob pc\vscode_projects\mlops2\.venv\Scripts\python.exe
+                git:
+                    commit: cbe6be2563b0ac1674576b4e20309b3143f4d319
+                    remote: https://github.com/JBorregaardd/mlops2.git
+                gpu: NVIDIA GeForce RTX 2070 SUPER
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "8589934592"
+                      name: NVIDIA GeForce RTX 2070 SUPER
+                      uuid: GPU-6cd2715a-d2f3-d6e4-a077-9299fa711768
+                host: DESKTOP-QKDN8RQ
+                memory:
+                    total: "17094889472"
+                os: Windows-11-10.0.26200-SP0
+                program: -m pytest.__main__
+                python: CPython 3.13.11
+                root: C:\Users\Jacob pc\vscode_projects\mlops2
+                startedAt: "2026-01-12T12:17:34.361223Z"
+                writerId: cf056968ep5dytx10j3en5tc7h56bcwt
+        m: []
+        python_version: 3.13.11
+        t:
+            "1":
+                - 1
+                - 5
+                - 50
+                - 53
+            "2":
+                - 1
+                - 5
+                - 50
+                - 53
+            "3":
+                - 2
+                - 16
+                - 61
+            "4": 3.13.11
+            "5": 0.23.1
+            "8":
+                - 3
+            "12": 0.23.1
+            "13": windows-amd64
+batch_size:
+    value: 32
+epochs:
+    value: 1
+lr:
+    value: 0.001
+model_name:
+    value: SimpleCNN

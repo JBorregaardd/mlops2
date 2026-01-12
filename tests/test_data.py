@@ -1,6 +1,13 @@
 from mlopscookie.data import corrupt_mnist
 import torch
+import os
+from pathlib import Path
+import pytest
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+file_path = PROJECT_ROOT / "data" / "processed" / "train_images.pt"
+
+@pytest.mark.skipif(not file_path.exists(), reason="Processed MNIST data not found")
 def test_data():
     train, test = corrupt_mnist()
     assert len(train) == 30000
