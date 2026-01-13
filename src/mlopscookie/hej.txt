@@ -1,0 +1,8 @@
+gcloud compute instances create <instance_name> \
+    --zone=europe-west1-b  \
+    --image-family=pytorch-latest-cpu \
+    --image-project=deeplearning-platform-release \
+    # add these arguments if you want to run on GPU and have the quota to do so
+    --accelerator="type=nvidia-tesla-V100,count=1" \
+    --maintenance-policy TERMINATE \
+    --metadata="install-nvidia-driver=True" \
