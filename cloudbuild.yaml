@@ -1,11 +1,8 @@
 steps:
 - name: gcr.io/cloud-builders/docker
-  args:
-    - build
-    - -f
-    - train.dockerfile
-    - -t
-    - europe-north2-docker.pkg.dev/$PROJECT_ID/mymlops/train:latest
-    - .
+  args: ["build", "-f", "train.dockerfile", "-t", "europe-north2-docker.pkg.dev/$PROJECT_ID/mymlops/train:latest", "."]
 images:
 - europe-north2-docker.pkg.dev/$PROJECT_ID/mymlops/train:latest
+options:
+  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
+  logging: CLOUD_LOGGING_ONLY
