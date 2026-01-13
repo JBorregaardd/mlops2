@@ -1,0 +1,11 @@
+steps:
+- name: gcr.io/cloud-builders/docker
+  args:
+    - build
+    - -f
+    - train.dockerfile
+    - -t
+    - europe-north2-docker.pkg.dev/$PROJECT_ID/mymlops/train:latest
+    - .
+images:
+- europe-north2-docker.pkg.dev/$PROJECT_ID/mymlops/train:latest
